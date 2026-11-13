@@ -88,8 +88,8 @@ def generar_curva_titulacion(caudal_m3h, ph_in, ph_out, reactivo, temp_c=25.0):
 # =========================================================
 # 4. BARRA LATERAL (OBJETIVO Y GUÍA DE PESTAÑAS)
 # =========================================================
-st.sidebar.title("🧪 El pH en la Ing. Química")
-st.sidebar.markdown("### 🎯 Objetivo de la Aplicación")
+st.sidebar.title("⤷ El pH en la Ing. Química")
+st.sidebar.markdown("### ⋆ Objetivo de la Aplicación")
 st.sidebar.info(
     """Mostrar cómo los conceptos teóricos del **pH** aprendidos en el laboratorio universitario 
     se transforman en herramientas de **Ingeniería Química** para controlar y neutralizar 
