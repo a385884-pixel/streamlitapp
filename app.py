@@ -135,9 +135,9 @@ with tab1:
     st.header("1. Introducción: El pH, la Ingeniería Química y la Industria")
 
     st.info(
-        """**Propósito de esta aplicación:** Demostrar cómo lo que aprendemos en las materias escolares 
-        (como Química Inorgánica y balances básicos en mililitros) se escala y transforma en ingeniería real 
-        para resolver problemas ambientales y operativos de control de pH en plantas industriales."""
+        """**Propósito de esta aplicación:** Demostrar cómo lo que se ensaña en las materias escolares 
+        (como Química Inorgánica y balances básicos ) puede escalar y transformarse en ingeniería real 
+        como una herramienta para resolver problemas ambientales y operativos de control de pH en plantas industriales."""
     )
 
     col_i1, col_i2 = st.columns(2)
