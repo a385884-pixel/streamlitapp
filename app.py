@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 # =========================================================
 st.set_page_config(
     page_title="El pH en la Ingeniería Química",
-    page_icon="🧪",
+    page_icon="🗺️🇵🇭🌊",
     layout="wide"
 )
 
@@ -99,16 +99,16 @@ st.sidebar.info(
 st.sidebar.markdown("### 📑 Contenido por Pestaña")
 st.sidebar.markdown(
     """
-    **1️⃣ Introducción y Contexto Industrial:**  
+    **❶ Introducción y Contexto Industrial:**  
     Qué es el pH, qué es la Ingeniería Química, su relación industrial, normas oficiales y contexto en Chihuahua.
 
-    **2️⃣ Principios de la Simulación:**  
+    **❷ Principios de la Simulación:**  
     Cómo funciona químicamente la neutralización y en qué principios fisicoquímicos se basa el simulador.
 
-    **3️⃣ Fórmulas y Qué Calculan:**  
+    **❸ Fórmulas y Funcionalidad:**  
     Explicación detallada de cada ecuación, gráficas conceptuales de comportamiento y bibliografía.
 
-    **4️⃣ Simulador Industrial:**  
+    **❹ Ejemplo de un Simulador Industrial:**  
     Ejemplo industrial práctico, panel interactivo en tiempo real, interpretación de la curva de valoración y bitácora de 24 h.
     """
 )
@@ -118,14 +118,14 @@ st.sidebar.caption("Desarrollado en Python (Streamlit, NumPy, Pandas, Matplotlib
 # =========================================================
 # 5. ENCABEZADO Y ESTRUCTURA DE 4 PESTAÑAS
 # =========================================================
-st.title("🧪 El pH en la Ingeniería Química: Del Laboratorio al Control Industrial")
+st.title("🌊 El pH en la Ingeniería Química: Del Laboratorio al Control Industrial")
 st.caption("Simulador de Neutralización de Efluentes y Escalamiento de Procesos (PTAR Chihuahua)")
 
 tab1, tab2, tab3, tab4 = st.tabs([
-    "1️⃣ Introducción y Contexto Industrial",
-    "2️⃣ Principios de la Simulación",
-    "3️⃣ Fórmulas y Qué Calculan",
-    "4️⃣ Simulador Industrial"
+    "❶ Introducción y Contexto Industrial",
+    "❷ Principios de la Simulación",
+    "❸ Fórmulas y Para que se emplean",
+    "❹ Ejemplo de un Simulador Industrial"
 ])
 
 # ---------------------------------------------------------
