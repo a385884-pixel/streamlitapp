@@ -13,7 +13,6 @@ import plotly.graph_objects as go
 # =========================================================
 st.set_page_config(
     page_title="El pH en la Ingeniería Química",
-    page_icon="🗺️🇵🇭🌊",
     layout="wide"
 )
 
@@ -118,7 +117,7 @@ st.sidebar.caption("Desarrollado en Python (Streamlit, NumPy, Pandas, Matplotlib
 # =========================================================
 # 5. ENCABEZADO Y ESTRUCTURA DE 4 PESTAÑAS
 # =========================================================
-st.title("🌊 El pH en la Ingeniería Química: Del Laboratorio al Control Industrial")
+st.title(" El pH en la Ingeniería Química: Del Laboratorio al Control Industrial")
 st.caption("Simulador de Neutralización de Efluentes y Escalamiento de Procesos (PTAR Chihuahua)")
 
 tab1, tab2, tab3, tab4 = st.tabs([
